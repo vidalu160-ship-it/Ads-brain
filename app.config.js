@@ -36,7 +36,7 @@ module.exports = {
     web: {
       favicon: './assets/favicon.png',
     },
-    plugins: ['expo-secure-store'],
+    plugins: ['expo-secure-store', 'expo-router', 'expo-web-browser'],
     extra: {
       supabaseUrl: process.env.SUPABASE_URL,
       supabaseKey: process.env.SUPABASE_KEY,
