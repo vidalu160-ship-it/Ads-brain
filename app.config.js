@@ -36,7 +36,7 @@ module.exports = {
     web: {
       favicon: './assets/favicon.png',
     },
-    plugins: ['expo-secure-store', 'expo-router', 'expo-web-browser', 'expo-updates'],
+    plugins: ['expo-secure-store', 'expo-web-browser'],
     updates: {
       url: 'https://u.expo.dev/d18199ae-6244-4c98-af14-bbc603977d28',
     },
