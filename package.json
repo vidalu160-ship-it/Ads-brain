@@ -1,0 +1,37 @@
+{
+  "name": "adsbrain",
+  "version": "1.0.0",
+  "description": "AdsBrain AI - SaaS de marketing digital con Google Ads y Claude IA",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:android": "eas build --platform android --profile preview",
+    "build:ios": "eas build --platform ios --profile preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:34817/git/vidalu160-ship-it/Ads-brain"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^3.0.2",
+    "@supabase/supabase-js": "^2.105.4",
+    "dotenv": "^17.4.2",
+    "expo": "~53.0.0",
+    "expo-constants": "^55.0.16",
+    "expo-linking": "^55.0.15",
+    "expo-router": "^55.0.14",
+    "expo-secure-store": "^55.0.14",
+    "expo-status-bar": "^55.0.6",
+    "expo-web-browser": "^55.0.16",
+    "react": "^19.2.6",
+    "react-native": "^0.85.3",
+    "react-native-safe-area-context": "^5.7.0",
+    "react-native-screens": "^4.25.0"
+  }
+}
