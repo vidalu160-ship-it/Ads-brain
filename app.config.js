@@ -45,7 +45,7 @@ module.exports = {
       googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
       googleDevToken: process.env.GOOGLE_DEV_TOKEN,
       mccCustomerId: process.env.MCC_CUSTOMER_ID,
-      eas: { projectId: 'adsbrain-project' },
+      eas: { projectId: 'd18199ae-6244-4c98-af14-bbc603977d28' },
     },
   },
 };

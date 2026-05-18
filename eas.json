@@ -16,7 +16,7 @@
     },
     "production": {
       "android": {
-        "buildType": "aab"
+        "buildType": "app-bundle"
       }
     }
   },
