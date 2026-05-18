@@ -41,7 +41,7 @@ module.exports = {
       url: 'https://u.expo.dev/d18199ae-6244-4c98-af14-bbc603977d28',
     },
     runtimeVersion: {
-      policy: 'appVersion',
+      policy: 'sdkVersion',
     },
     extra: {
       supabaseUrl: process.env.SUPABASE_URL,
