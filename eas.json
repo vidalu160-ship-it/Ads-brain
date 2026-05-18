@@ -20,6 +20,11 @@
       }
     }
   },
+  "update": {
+    "preview": {
+      "channel": "preview"
+    }
+  },
   "submit": {
     "production": {}
   }

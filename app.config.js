@@ -36,7 +36,13 @@ module.exports = {
     web: {
       favicon: './assets/favicon.png',
     },
-    plugins: ['expo-secure-store', 'expo-router', 'expo-web-browser'],
+    plugins: ['expo-secure-store', 'expo-router', 'expo-web-browser', 'expo-updates'],
+    updates: {
+      url: 'https://u.expo.dev/d18199ae-6244-4c98-af14-bbc603977d28',
+    },
+    runtimeVersion: {
+      policy: 'appVersion',
+    },
     extra: {
       supabaseUrl: process.env.SUPABASE_URL,
       supabaseKey: process.env.SUPABASE_KEY,
